@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/YOUR_REPO_NAME/',   // ★GitHub Pagesのサブパス。末尾スラッシュ必須
+  base: '/science.challenge/',  // ← リポ名そのまま（末尾 / 必須）
 })
